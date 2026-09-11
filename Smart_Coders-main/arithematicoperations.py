@@ -1,4 +1,4 @@
-"""1.arithamatic operations"""
+#1.arithamatic operations
 
 a = int(input("enter a : "))
 b = int(input("enter b : "))

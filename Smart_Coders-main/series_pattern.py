@@ -13,3 +13,22 @@ a = int(input("enter a : "))
 for i in range (1,a+1):
     sum = sum + 1/i
     print(sum)
+
+#4.power finding
+x = float(input("Enter base x: "))
+n = int(input("Enter exponent n: "))
+result = 1
+for _ in range(abs(n)):
+    result *= x
+if n < 0:
+    result = 1 / result
+print(f"{x}^{n} = {result}")
+
+#5.factorial
+n = int(input("Enter N: "))
+total = 0
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+    total += factorial
+print("Sum of factorials:", total)
